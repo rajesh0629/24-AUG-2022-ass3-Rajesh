@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header menubar */
+header{
+    height: 72px;
+    display: flex;
+    align-items: center;
+    background-color: teal;
+    color: white;
+    gap: 5rem;
+}
+nav ul{
+    display: flex;
+    gap: 1rem;
+}
+nav ul li, a{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 26px;
+    cursor: pointer;
+    color: white;
+}
+
+
+/* about US */
+.abt-container{
+    display: flex;
+}
+.content-left{
+
+}
+
+/* contact page */
+.input-form{
+
+}
+.input-form form{
+
+}
+
+/* gallery-page */
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    max-width: 1128px;
+    margin: auto;
+}
+
+header {
+    margin-top: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header, h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.gallery-container img{
+    margin-top: 1rem;
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.gallery-container img:hover {
+    opacity: 0.5;
+    transform: scale(1.3);
+}
+
+/* about-page */
+
+.abt-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.content-left img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.content-left img:hover {
+    opacity: 0.5;
+}
+
+.content-right {
+    width: 500px;
+    height: 250px;
+}
+
+/* contact page */
+.input-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    width: 600px;
+    height: 500px;
+    margin: auto;
+}
+.input-form form{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 1rem;
+}
+.input-form form input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.input-form form textarea{
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+}
